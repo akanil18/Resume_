@@ -13,7 +13,6 @@ from typing import List, Optional
 
 nltk.download('stopwords')
 
-
 def extract_text_from_pdf(file):
     text = ""
     with pdfplumber.open(file) as pdf:
